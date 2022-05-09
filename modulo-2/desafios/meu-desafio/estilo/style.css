@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+
+:root {
+    /** Paleta de cores **/
+    --cor: white;
+    --cor0: black;
+
+    /** Fontes **/
+
+
+    /** Box Shadow **/
+    --shadow: 0px 0px 0px rgba(0, 0, 0, 0.400);
+}

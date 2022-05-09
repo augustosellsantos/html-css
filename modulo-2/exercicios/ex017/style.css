@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px;
+    /*
+    Madidas Absolutas
+    cm, mm, in, px, pt, pc
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    */
+    /*Peso da fonte font-weight -> lighter, normal, bold, bolder*/
+}
+h1 {
+    /* shorthand font sequência: font-style -> font-weight -> font-size -> font-family
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    Isso tudo simplificado com o shorthand
+    */
+    
+    font: italic bolder 3em Georgia, 'Times New Roman', Times, serif;
+    color: #d2691e;
+    text-align: center;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a52a2a;
+    text-align: right;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-indent: 35px;
+}

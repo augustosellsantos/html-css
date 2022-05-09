@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: chocolate;
+            text-decoration: none;
+            font: normal bold;
+        }
+        a:visited {
+            color: crimson;
+        }
+        a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        a::after {
+            content: '[link]';
+            font-size: 10px;
+            color: gray;
+        }
+        .unico::after {
+            content: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul >
+        <li><a href="https://www.facebook.com/augusto.sell" target="_blank" rel="external">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/augusto-sell-dos-santos-7b6358148/" target="_blank" rel="external">Linkedin</a></li>
+        <li><a href="https://www.instagram.com/augustosell/" target="_blank" rel="external">Intagram</a></li>
+        <li><a href="https://onepieceex.net/" target="_blank" rel="external">One Piece</a></li>
+        <li><a href="https://studio.youtube.com/channel/UC-N63Y4D7bb8VMP25xviy0A" target="_blank" rel="external">YouTube</a></li>
+    </ul>
+    <p><a href="hover.html" target="_self" rel="prev" class="unico">Voltar</a></p>
+</body>
+</html>

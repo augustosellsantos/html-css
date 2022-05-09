@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {background-color: antiquewhite;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;}
+h1 {color: chocolate;}
+h2 {color: darkcyan;}
+p {text-align: justify;}
+a {color: green;
+    text-decoration: underline;}

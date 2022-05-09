@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: chocolate;
+    width: 300px;
+}
+div:hover {
+    color: brown;
+}
+.next {
+    text-align: right;
+}
