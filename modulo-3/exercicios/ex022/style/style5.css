@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #3DD9BC;
+    --cor2: #1A4019;
+    --cor3: #50590B;
+    --cor4: #593B16;
+    --cor5: #401506;
+}
+
+body {
+    height: 98vh;
+    background-image: url('../imagens/wallpaper005.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}

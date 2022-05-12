@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #3DD9BC;
+    --cor2: #1A4019;
+    --cor3: #50590B;
+    --cor4: #593B16;
+    --cor5: #401506;
+}
+
+div.fundo {
+    background-image: url('../imagens/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    height: 280px;
+    border: 2px solid var(--cor1);
+    border-radius: 15px;
+    margin: 10px;
+}
+div#b1 {
+    background-position: left top;
+}
+div#b2 {
+    background-position: left center;
+}
+div#b3 {
+    background-position: left bottom;
+}
+div#b4 {
+    background-position: right top;
+}
+div#b5 {
+    background-position: right center;
+}
+div#b6 {
+    background-position: right bottom;
+}
+div#b7 {
+    background-position: top center;
+}
+div#b8 {
+    background-position: center center;
+}
+div#b9 {
+    background-position: bottom center;
+}
