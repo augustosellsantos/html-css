@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #3DD9BC;
+    --cor2: #1A4019;
+    --cor3: #50590B;
+    --cor4: #593B16;
+    --cor5: #401506;
+}
+
+body {
+    height: 100vh;
+    /**
+    background-color: var(--cor1);
+    background-image: url('../imagens/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    **/
+    background: var(--cor1) url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+main {
+    background-color: var(--cor0);
+    padding: 10px;
+    margin: auto;
+    max-width: 500px;
+    border: 5px dashed var(--cor2);
+    border-radius: 20px;
+    text-align: justify;
+}
