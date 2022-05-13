@@ -7,3 +7,38 @@
     --cor4: #593B16;
     --cor5: #401506;
 }
+
+body {
+    background-color: var(--cor1);
+}
+main#conteiner {
+    background-color: var(--cor5);
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;    
+    height: 97vh;
+    padding: 10px;
+    position: relative;    
+}
+article#conteudo {
+    background-color: var(--cor3);
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    border-radius: 15px;
+}
+aside#entenda {
+    background-color: var(--cor4);
+    height: 200px;
+    width: 100px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(47%, -19%);
+    border-radius: 10px;
+}
