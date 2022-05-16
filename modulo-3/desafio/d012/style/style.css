@@ -1,9 +1,25 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100;12..72,300;12..72,400;12..72,500;12..72,700&display=swap');
 
 :root {
-    --cor1: #3DD9BC;
-    --cor2: #1A4019;
-    --cor3: #50590B;
-    --cor4: #593B16;
-    --cor5: #401506;
+    --cor1: #F2E313;
+    --cor2: #D9CE9A;
+    --cor3: #F28705;
+    --cor4: #BF5B04;
+    --cor5: #401201;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor5);
+    color: white;
+    padding: 2vw;
+    margin: auto;
+}
+header h1 {
+    font-family: 'Truculenta', sans-serif;
+    font-size: 10vw;
 }
