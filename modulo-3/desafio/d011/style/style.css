@@ -14,21 +14,17 @@
 }
 
 body {
-    background-color: var(--cor2);
-}
-main#espaço {
-    background: url('../imagens/espaco.jpg') no-repeat fixed;
+    background: var(--cor2) url('../imagens/espaco.jpg') no-repeat fixed;
     background-size: cover;
     height: 100vh;
-    position: relative;
 }
-article#astronauta {
-    background: url('../imagens/astronauta.png')  center center no-repeat fixed;
-    height: 100%;
+main {
+    background: url('../imagens/astronauta.png') center center no-repeat;
+    height: 100vh;
 }
 article {
     color: white;
-    padding: 10px;
-    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 3vh;
 }
