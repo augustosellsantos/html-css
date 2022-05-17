@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100;12..72,300;12..72,400;12..72,500;12..72,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
 :root {
     --cor1: #F2E313;
@@ -7,19 +8,65 @@
     --cor3: #F28705;
     --cor4: #BF5B04;
     --cor5: #401201;
+
+    --font0: 'Courier New', Courier, monospace;
+    --font1: 'Truculenta', sans-serif;
+    --font2: 'Caveat', cursive;
 }
 * {
     margin: 0px;
     padding: 0px;
 }
 
+body {
+    background-color: var(--cor2);
+    min-height: 100vh;
+}
 header {
     background-color: var(--cor5);
     color: white;
-    padding: 2vw;
-    margin: auto;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
 }
 header h1 {
-    font-family: 'Truculenta', sans-serif;
-    font-size: 10vw;
+    font-family: var(--font1);
+    font-size: 8.5vw;
+    padding-top: 45px;
+}
+header p {
+    padding-bottom: 45px;
+}
+a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
+a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+}
+section {
+    padding: 10vh 0vh 10vh 4vh;
+    line-height: 2em;
+    font-family: var(--font2);
+    font-size: 4vw;
+}
+section.semimagem {
+    background-color: var(--cor2);
+}
+section.comimagem {
+    background-color: var(--cor5);
+    color: white;
+}
+section.comimagem > p {
+    display: inline-block;
+    padding: 7px;
+    background-color: #00000034;
+}
+footer {
+    background-color: var(--cor5);
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    padding: 1vw;
+    text-align: center;
 }
