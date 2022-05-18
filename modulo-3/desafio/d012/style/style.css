@@ -12,6 +12,10 @@
     --font0: 'Courier New', Courier, monospace;
     --font1: 'Truculenta', sans-serif;
     --font2: 'Caveat', cursive;
+
+    --boxshadow0: 1px 1px 0px #00000037;
+    --boxshadow1: 5px 5px 10px 0px #00000037;
+    --boxshadow2: 3px 3px 8px #00000047;
 }
 * {
     margin: 0px;
@@ -51,17 +55,30 @@ section {
     font-family: var(--font2);
     font-size: 4vw;
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.semimagem {
     background-color: var(--cor2);
 }
 section.comimagem {
     background-color: var(--cor5);
     color: white;
+    box-shadow: inset var(--boxshadow1);
 }
 section.comimagem > p {
     display: inline-block;
-    padding: 7px;
-    background-color: #00000034;
+    padding: 8px;
+    background-color: #00000036;
+    text-shadow: var(--boxshadow0);
+}
+section#image1 {
+    background: url('../imagens/flor-m.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+section#image2 {
+    background: url('../imagens/cartas2.jpg') right center no-repeat fixed;
+    background-size: cover;
 }
 footer {
     background-color: var(--cor5);
