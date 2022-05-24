@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+        td, th {
+            border: 1.5px solid #000;
+            padding: 7px;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.5em;
+            padding-bottom: 5px;
+        }
+        thead {
+            background-color: #ceae87;
+        }
+        .esquerda {
+            background-color: #cfe9ff;
+        }
+        .meio {
+            background-color: #9371b4;
+        }
+        .direita {
+            text-align: center;
+            background-color: #877763;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pratica de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="esquerda">
+            <col class="meio">
+            <col class="meio">
+            <col class="direita">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zoe Santos</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Desenvolvedora</td>
+            </tr>
+            <tr>
+                <td>Sofi Mota</td>
+                <td>F</td>
+                <td>30</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Noah Fernandes</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Talita Soares</td>
+                <td>F</td>
+                <td>26</td>
+                <td>Nutricionista</td>
+            </tr>
+            <tr>
+                <td>Zak Ferreira</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Yan Barbosa</td>
+                <td>M</td>
+                <td>31</td>
+                <td>Médico</td>
+            </tr>
+            <tr>
+                <td>Ana Coelho</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Kelvin Sell</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Dentista</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
