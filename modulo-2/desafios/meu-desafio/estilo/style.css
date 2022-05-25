@@ -1,15 +1,47 @@
 @charset "UTF-8";
 
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
 
 :root {
     /** Paleta de cores **/
-    --cor: white;
-    --cor0: black;
-
+    --cor: #ffffff;
+    --cor0: #000000;
+    --cor1: #BF1B39;
+    --cor2: #3084F2;
+    --cor3: #022601;
+    --cor4: #F2E422;
+    --cor5: #F2E96B;
     /** Fontes **/
-
-
+    --font0: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --font1: 'Cinzel Decorative', cursive;
+    --font2: 'Macondo Swash Caps', cursive;
     /** Box Shadow **/
     --shadow: 0px 0px 0px rgba(0, 0, 0, 0.400);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: var(--font0);
+    background-color: var(--cor5);
+}
+header {
+    text-align: center;
+}
+header h1{
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 3em;
+}
+nav {
+    text-align: center;
+}
+main {
+    background-color: var(--cor);
+    
+}
+footer {
+    background-color: var(--cor2);
 }
