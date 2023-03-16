@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <div>
+            <label for="color1">Cor: </label>
+            <input type="color" name="color" id="color1" value="#004911">
+        </div>
+        <div>
+            <label for="level1">Nível de Satisfação</label>
+            <input type="range" name="level" id="level1" value="1" min="1" max="10">
+        </div>
+        <div>
+            <label for="photo1">Foto do Perfil: </label>
+            <input type="file" name="photo" id="photo1">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
