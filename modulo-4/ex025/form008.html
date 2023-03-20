@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <div>
+            <label for="number1">Número 1: </label>
+            <input type="number" name="numberone" id="number1" min="0" max="50" required oninput="sum.innerHTML = Number(number1.value) + Number(number2.value)">
+        </div>
+        <div>
+            <label for="number2">Número 2: </label>
+            <input type="number" name="numbertwo" id="number2" min="0" max="50" required oninput="sum.innerHTML = Number(number1.value) + Number(number2.value)">
+        </div>
+        <div>
+            <label for="sum">Soma: </label>
+            <output id="sum">0</output>
+        </div>
+        <div>
+            <label for="number3">Número: </label>
+            <input type="range" name="number" id="number3" min="0" max="20" value="0" oninput="result.innerHTML = Number(number3.value)">
+            <output id="result">0</output>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
