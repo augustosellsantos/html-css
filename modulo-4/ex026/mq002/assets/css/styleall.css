@@ -13,6 +13,7 @@
     --col3: #025959;
     --col4: #A0A603;
     --col5: #F2E0C9;
+    --col6: #233eff;
 
 /* Fontes */
     --font0: 'Short Stack', cursive;
@@ -22,7 +23,7 @@
 /* Sombras */
     --boxshadow0: 1px 1px 0px #00000037;
     --boxshadow1: 5px 5px 10px 0px #00000037;
-    --boxshadow2: 3px 3px 8px #00000047;    
+    --boxshadow2: 2px 2px 0px #00000047;    
 }
 
 * {
@@ -34,4 +35,14 @@ html, body {
     font-family: var(--font1);
     width: 100vw;
     height: 100vh;
+    background-color: var(--col6);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: var(--col5);
+    font-family: var(--font0);
+    padding: 10px;
+    text-align: center;
+    text-shadow: var(--boxshadow2);
 }
