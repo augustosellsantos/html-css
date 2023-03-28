@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* Configurações Gerais */
+
+:root {
+    --col: #ffffff;
+    --col0: #000000;
+    --col1: #04ADBF;
+    --col2: #04BFBF;
+    --col3: #025959;
+    --col4: #A0A603;
+    --col5: #F2E0C9;
+
+/* Fontes */
+    --font0: 'Short Stack', cursive;
+    --font1: 'Manrope', sans-serif;
+    --font2: 'Permanent Marker', cursive;
+
+/* Sombras */
+    --boxshadow0: 1px 1px 0px #00000037;
+    --boxshadow1: 5px 5px 10px 0px #00000037;
+    --boxshadow2: 3px 3px 8px #00000047;    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: var(--font1);
+    width: 100vw;
+    height: 100vh;
+}
