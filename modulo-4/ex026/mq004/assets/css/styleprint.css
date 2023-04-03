@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Estilo para impressora */
+
+:root {
+    --col: #ffffff;
+    --col0: #000000;
+    --col1: #B9B4D9;
+    --col2: #5D75A6;
+    --col3: #405173;
+    --col4: #283040;
+    --col5: #1A1E26;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+menu {
+    display: none;
+}
+article::after{
+    content: 'Esse artigo foi impresso através...';
+}
