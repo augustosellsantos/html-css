@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+:root {
+    --col: #ffffff;
+    --col0: #000000;
+    --col1: #F29BEC;
+    --col2: #A75CF2;
+    --col3: #E3D8F2;
+    --col4: #9373D9;
+    --col5: #F2E205;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+}
+body {
+    background: var(--col3) url(../img/mq.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header {
+    background-color: var(--col4);
+}
+header > h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    padding: 20px;
+}
+menu > a {
+    text-decoration: none;
+    color: var(--col3);
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+}
+menu ul {
+    list-style-type: none;
+    background-color: var(--col3);
+}
+menu li {
+    display: inline-block;
+    color: var(--col);
+    padding: 15px;
+    font-weight: bold;
+}
+menu li:hover {
+    background-color: var(--col5);
+    color: var(--col1);
+}
+h2 {
+    font-size: 1.5em;
+}
+main {
+    background-color: #ffffffd3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 90vw;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+}

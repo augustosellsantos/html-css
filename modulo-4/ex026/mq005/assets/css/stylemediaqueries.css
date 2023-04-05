@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+:root {
+    --col: #ffffff;
+    --col0: #000000;
+    --col1: #F29BEC;
+    --col2: #A75CF2;
+    --col3: #E3D8F2;
+    --col4: #9373D9;
+    --col5: #F2E205;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Versão para impressora */
+@media print {
+    
+}
+
+/* Versão para smartphones (phones, 600px and down)
+@media only screen and (max-width: 600px) {}
+Versão para tablets e smartphones (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {}*/
+
+/* Versão para tablets (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+/* Versão para desktops (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+/* Versão para TVs (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
