@@ -34,29 +34,26 @@ header > h1 {
     font-size: 2em;
     padding: 20px;
 }
-menu > a {
-    text-decoration: none;
-    color: var(--col3);
-    padding: 10px;
-    border-radius: 5px 5px 0px 0px;
-    font-weight: bold;
+menu {
+    display: block;
 }
 menu ul {
     list-style-type: none;
     background-color: var(--col3);
 }
-menu li {
-    display: inline-block;
-    color: var(--col);
-    padding: 15px;
+menu > ul > li > a {
+    text-decoration: none;
+    color: var(--col2);
+    display: block;
+    padding: 10px;
     font-weight: bold;
 }
-menu li:hover {
-    background-color: var(--col5);
-    color: var(--col1);
+menu > ul > li > a:hover {
+    background-color: var(--col1);
+    color: var(--col5);
 }
-h2 {
-    font-size: 1.5em;
+menu li {
+    display: inline-block;
 }
 main {
     background-color: #ffffffd3;
@@ -66,5 +63,36 @@ main {
     margin-top: 15px;
     border-radius: 10px;
     padding: 10px;
+}
+article h2 {
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+article p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-indent: 30px;
+    margin-bottom: 5px;
+}
+.menuburger {
+    position: relative;
+    font-size: 2rem;
+    color: var(--col5);
+    display: block;
+    background: var(--col3);
+    cursor: pointer;
+    z-index: 10;
+}
+.visibility {
+    opacity: 0;
+}
+.menu {
+    position: absolute;
+    transition: all 0.4s linear;
+}
+.close {
+    position: absolute;
+    transition: all 0.4s linear;
 }
