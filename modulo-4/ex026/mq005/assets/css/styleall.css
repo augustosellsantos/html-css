@@ -53,7 +53,7 @@ menu > ul > li > a:hover {
     color: var(--col5);
 }
 menu li {
-    display: inline-block;
+    display: block;
 }
 main {
     background-color: #ffffffd3;
@@ -61,6 +61,7 @@ main {
     width: 90vw;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 8px;
     border-radius: 10px;
     padding: 10px;
 }
@@ -95,4 +96,21 @@ article p {
 .close {
     position: absolute;
     transition: all 0.4s linear;
+}
+footer {
+    background-color: var(--col4);
+    color: white;
+    padding: 5px;
+}
+footer p {
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer a:hover {
+    background-color: var(--col2);
+    color: var(--col5);
 }
