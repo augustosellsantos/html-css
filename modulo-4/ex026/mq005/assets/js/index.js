@@ -1,10 +1,12 @@
-const menuBurger = document.querySelector('.menubruger')
+const burger = document.querySelector('.burger')
 const menu = document.querySelector('.menu')
 const close1 = document.querySelector('.close')
+const menuBurger = document.querySelector('.menuburger')
 
-menuBurger.addEventListener('click', (event) => {
+burger.addEventListener('click', (event) => {
     event.preventDefault()
     menu.classList.toggle('visibility')
     close1.classList.toggle('visibility')
-    menuBurger.classList.toggle('menuburger')
+    menuBurger.classList.toggle('visibility')
+    burger.classList.toggle('burger')
 })
